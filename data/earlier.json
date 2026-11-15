@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+      "code_bytes": 1,
+      "code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+      "decimals_reported": 8,
+      "status": "READ_OK",
+      "ticker": "AAPLc",
+      "token_units_reported": "6000.17259753",
+      "total_supply_raw": "600017259753"
+    },
+    {
+      "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+      "code_bytes": 1,
+      "code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+      "decimals_reported": 8,
+      "status": "READ_OK",
+      "ticker": "NVDAc",
+      "token_units_reported": "49255.60410884",
+      "total_supply_raw": "4925560410884"
+    },
+    {
+      "address": "0xb2000000000000000000001e800a7f5189430cD0",
+      "code_bytes": 1,
+      "code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+      "decimals_reported": 8,
+      "status": "READ_OK",
+      "ticker": "TSLAc",
+      "token_units_reported": "6432.88183743",
+      "total_supply_raw": "643288183743"
+    }
+  ],
+  "block": {
+    "block_timestamp_utc": "2026-11-15T16:40:00+00:00",
+    "hash": "0x729043983ace3aa265a017f83641dbdf6b3c6347ef112abc896ac98c847eb005",
+    "number": 57852123
+  },
+  "captured_at_utc": "2026-11-15T16:40:00.500837+00:00",
+  "chain_id": 8453,
+  "mode": "LIVE_BASE_MAINNET_READ_ONLY",
+  "schema_version": "equity-lens-public-snapshot-1",
+  "source_url": "https://www.base.org/assets"
+}
