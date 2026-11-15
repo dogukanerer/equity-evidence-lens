@@ -27,12 +27,16 @@ jobs:
         run: python -m unittest discover -s tests -q
       - name: Validate current published evidence (no network)
         run: python scripts/refresh_site.py --check-only
+      - name: Validate prior event review (offline, if available)
+        run: python scripts/event_review.py --check-only
       - name: Validate prior proxy evidence (offline, if available)
         run: python scripts/proxy_monitor.py --check-only
       - name: Get verified read-only Base block and build public history
         run: python scripts/refresh_site.py
       - name: Collect pinned proxy evidence and build review section
         run: python scripts/proxy_monitor.py
+      - name: Build evidence-based change review (offline; no RPC)
+        run: python scripts/event_review.py
       - name: Save complete history to default branch
         run: |
           git config user.name 'github-actions[bot]'
@@ -50,6 +54,7 @@ jobs:
           cp index.html .nojekyll _site/
           cp data/earlier.json data/later.json data/comparison.json data/manifest.json data/history.json _site/data/
           cp data/proxy_audit.json data/proxy_history.json data/proxy_manifest.json _site/data/
+          cp data/alerts.json data/alerts_manifest.json _site/data/
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
