@@ -1,0 +1,12 @@
+{
+  "chain_id": 8453,
+  "files_sha256": {
+    "alerts.json": "4a96c9aa3ae9ae31f3b791a58d2241d9a6d1eca4a5eb9bed2f272099807c0b10",
+    "history.json": "caa290fe6c7ac374bfa4d04445fae2ff78b95f3eb77b7e822061ce33c8ed3257",
+    "manifest.json": "fff86bf42a7cda3db0ecd54b84fd46c5986da0818d73de58add1fa0574c11cf2",
+    "proxy_history.json": "2322a70c6c55a892d08031225d6ff569049eb4e47c5437833286f850e47e94e8",
+    "proxy_manifest.json": "c2caa39c232f500405f5920a86b88a0f8ddf1f896754c1410d3f20b4e3e689db"
+  },
+  "note": "Only source-file consistency. Not cryptographic proof of EVM state.",
+  "schema_version": "equity-lens-change-review-manifest-1"
+}

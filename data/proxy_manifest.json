@@ -1,8 +1,8 @@
 {
   "chain_id": 8453,
   "files_sha256": {
-    "proxy_audit.json": "f75613a1cb0ab3e4b01cd13431b1b00352b2c03826e92e8dc6289ae3c6a6a272",
-    "proxy_history.json": "4b363e0ca1008fdfc0f47f333f4f1e13a236e9934a9a130f4f4165a1e2f43dd7"
+    "proxy_audit.json": "a8d2dd99b0ab9dba9164353ffdeaa0b5e102eb4e8d01a46087a701ff0d9914bd",
+    "proxy_history.json": "2322a70c6c55a892d08031225d6ff569049eb4e47c5437833286f850e47e94e8"
   },
   "note": "Integrity of public files only; NOT an EVM state proof.",
   "schema_version": "equity-lens-proxy-manifest-1"
