@@ -26,7 +26,7 @@ NETWORKS = {
     "base-mainnet": Network(8453, "https://mainnet.base.org", "ETH", "MAINNET_READ_ONLY"),
     "arc-mainnet": Network(5042, "https://rpc.mainnet.arc.io", "USDC", "MAINNET_READ_ONLY"),
 }
-ALLOWED_METHODS = frozenset({"eth_chainId", "eth_blockNumber", "eth_gasPrice", "eth_getCode", "eth_call", "eth_getBlockByNumber"})
+ALLOWED_METHODS = frozenset({"eth_chainId", "eth_blockNumber", "eth_gasPrice", "eth_getCode", "eth_call", "eth_getBlockByNumber", "eth_getStorageAt"})
 ADDRESS_RE = re.compile(r"0x[0-9a-fA-F]{40}\Z")
 HEX_RE = re.compile(r"0x(?:[0-9a-fA-F]{2})*\Z")
 MAX_RESPONSE_BYTES = 128_000
@@ -54,6 +54,12 @@ def validate_rpc_request(method, params):
             raise ValueError("eth_call must be bounded, with to, data and a safe block tag")
 
 
+    elif method == "eth_getStorageAt":
+        if not (isinstance(params, list) and len(params) == 3
+                and isinstance(params[0], str) and ADDRESS_RE.fullmatch(params[0])
+                and isinstance(params[1], str) and re.fullmatch(r"0x[0-9a-fA-F]{64}", params[1])
+                and isinstance(params[2], str) and BLOCK_TAG_RE.fullmatch(params[2])):
+            raise ValueError("getStorageAt requires a valid address, exact bytes32 slot, and safe block tag")
     elif method == "eth_getBlockByNumber":
         if not (isinstance(params, list) and len(params) == 2
                 and isinstance(params[0], str) and BLOCK_TAG_RE.fullmatch(params[0])
