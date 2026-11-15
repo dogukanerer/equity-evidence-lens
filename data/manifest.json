@@ -1,10 +1,11 @@
 {
   "chain_id": 8453,
   "files_sha256": {
-    "comparison.json": "10b9db9b5f86d83e0f77a61b549d8cefda3753863ef293d04060eeea03b04893",
-    "earlier.json": "a4cffdc301d27b337a565bcc453c411d3f6b93fcf6c8f0b0e74544ff0338fc03",
-    "later.json": "267aee9c628a164627a3d81b7b69db4dc3c2633c8b3e834667c8f982e714d6a6"
+    "comparison.json": "77cd805fc0a4249645a2cdec780eaa599cf3ed0ac880240d528329f164c8e71c",
+    "earlier.json": "267aee9c628a164627a3d81b7b69db4dc3c2633c8b3e834667c8f982e714d6a6",
+    "history.json": "457c639a6cbc383c20fb42703b35d50ea137b24e7426eaa714353e1495e7123e",
+    "later.json": "dedc3aaad873ef887ee8f501df2b8826d5632de22686ab2ec1ade4571242e268"
   },
   "schema_version": "equity-lens-public-manifest-1",
-  "scope": "Sanitized, independent, publicly reproducible read-only Base observations. SHA-256 is file integrity, not chain state proof."
+  "scope": "Sanitized, public read-only Base observations; SHA256 is file integrity, not state proof."
 }
