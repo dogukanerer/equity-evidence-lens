@@ -1,19 +1,19 @@
 {
-  "base_latest_block": 57963098,
-  "base_observation_count": 6,
+  "base_latest_block": 58191782,
+  "base_observation_count": 7,
   "chain_id": 8453,
   "disclaimer": "Changes are observed differences between verified sampled blocks, not proof of the transaction, exact event block, intent, privilege, exploit, investment safety, token rights, or airdrop eligibility. Changes occurring and reversing between samples may be missed.",
   "event_count": 0,
   "events": [],
   "mode": "OFFLINE_VERIFIED_SAMPLE_COMPARISON_NO_TRADES",
   "proxy_currently_conflicting_indicators": [],
-  "proxy_latest_block": 57963098,
-  "proxy_observation_count": 3,
+  "proxy_latest_block": 58191782,
+  "proxy_observation_count": 4,
   "schema_version": "equity-lens-change-review-1",
   "source_sha256": {
-    "history.json": "07d15373bc8503655580d8cd19baa5839a05867492d7400bbb83854a4e222fbb",
-    "manifest.json": "3e2db623ef66c80099d0751a63fc373adf759d74c4e1d3f73f5b213cf8b269f3",
-    "proxy_history.json": "f4a79930044fb40895c30aebaae2b792ea1c5974a1c2478ab8a6438a2b0273a0",
-    "proxy_manifest.json": "643ab5c0d34fff61c9036364591f4f9ef3bdb4dbad7d2472835fa1f02155df0f"
+    "history.json": "e8481e7792bcdf126cc50cf8f539be851527ad35585ec5e1b2c4a84013da5ea2",
+    "manifest.json": "86d1699d2d1ed11cd0d758f7f337f51d88e9c2d284ac56cd667fa9411ce223e9",
+    "proxy_history.json": "aeef7ee39b4c44b88c36356160d0a9193252278edcb1012d496ff230c950e409",
+    "proxy_manifest.json": "6867d49ce8d2dfd4f29e8de9faee686de23c6596e445739b10c30b3284145cbc"
   }
 }

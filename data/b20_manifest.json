@@ -1,8 +1,8 @@
 {
   "chain_id": 8453,
   "files_sha256": {
-    "b20_history.json": "c81c56342a0403819754d253e4364de43cd691e9476a4836e343b98e2636031d",
-    "b20_latest.json": "281619624976bff06c1f12de3fba7ae027081a977f18f81281e4381fb2bc72aa"
+    "b20_history.json": "f91ae7c108a111703c8d1a6d4f9ee041c0e08b0a8f280d428661a18018c8b80b",
+    "b20_latest.json": "623137365e8452c3673b624bd99ca3a35ab9e59a0d27402d236b87e51e687dbf"
   },
   "schema_version": "equity-lens-b20-manifest-1",
   "scope": "Integrity of public B20 observations, not cryptographic blockchain state proof."
