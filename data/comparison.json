@@ -1,39 +1,45 @@
 {
   "chain_id": 8453,
   "earlier_block": {
-    "block_timestamp_utc": "2026-11-15T22:49:55+00:00",
-    "hash": "0x1ebe841cee07d69a89e3e8866f5e858dc84dd928f625575524a455ec651c473e",
-    "number": 57963098
-  },
-  "interpretation": "Two observations only; not security certification or investment advice.",
-  "later_block": {
     "block_timestamp_utc": "2026-11-16T11:32:12+00:00",
     "hash": "0x8ad8b6f40288a9456745466f6015b0af63a218fe75af56d3d4e567b2cc334b23",
     "number": 58191782
   },
+  "interpretation": "Two observations only; not security certification or investment advice.",
+  "later_block": {
+    "block_timestamp_utc": "2026-11-17T11:58:15+00:00",
+    "hash": "0xe3885e8edc5fa34b62778801f570e25dff528c60441f0919c039125ed9432bc6",
+    "number": 58631598
+  },
   "results": [
     {
       "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
-      "changes": [],
-      "raw_supply_delta": "0",
-      "raw_supply_pct_change": "0.000000",
-      "status": "NO_CHANGE_AT_SAMPLED_BLOCKS",
+      "changes": [
+        "RAW_TOTAL_SUPPLY_CHANGED"
+      ],
+      "raw_supply_delta": "6696649068",
+      "raw_supply_pct_change": "1.116076",
+      "status": "CHANGE_REVIEW",
       "ticker": "AAPLc"
     },
     {
       "address": "0xb20000000000000000000078ee7ce2fE4908108C",
-      "changes": [],
-      "raw_supply_delta": "0",
-      "raw_supply_pct_change": "0.000000",
-      "status": "NO_CHANGE_AT_SAMPLED_BLOCKS",
+      "changes": [
+        "RAW_TOTAL_SUPPLY_CHANGED"
+      ],
+      "raw_supply_delta": "459153003414",
+      "raw_supply_pct_change": "9.321843",
+      "status": "CHANGE_REVIEW",
       "ticker": "NVDAc"
     },
     {
       "address": "0xb2000000000000000000001e800a7f5189430cD0",
-      "changes": [],
-      "raw_supply_delta": "0",
-      "raw_supply_pct_change": "0.000000",
-      "status": "NO_CHANGE_AT_SAMPLED_BLOCKS",
+      "changes": [
+        "RAW_TOTAL_SUPPLY_CHANGED"
+      ],
+      "raw_supply_delta": "-1554613746",
+      "raw_supply_pct_change": "-0.241667",
+      "status": "CHANGE_REVIEW",
       "ticker": "TSLAc"
     }
   ],

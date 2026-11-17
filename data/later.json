@@ -7,8 +7,8 @@
       "decimals_reported": 8,
       "status": "READ_OK",
       "ticker": "AAPLc",
-      "token_units_reported": "6000.17259753",
-      "total_supply_raw": "600017259753"
+      "token_units_reported": "6067.13908821",
+      "total_supply_raw": "606713908821"
     },
     {
       "address": "0xb20000000000000000000078ee7ce2fE4908108C",
@@ -17,8 +17,8 @@
       "decimals_reported": 8,
       "status": "READ_OK",
       "ticker": "NVDAc",
-      "token_units_reported": "49255.60410884",
-      "total_supply_raw": "4925560410884"
+      "token_units_reported": "53847.13414298",
+      "total_supply_raw": "5384713414298"
     },
     {
       "address": "0xb2000000000000000000001e800a7f5189430cD0",
@@ -27,16 +27,16 @@
       "decimals_reported": 8,
       "status": "READ_OK",
       "ticker": "TSLAc",
-      "token_units_reported": "6432.88183743",
-      "total_supply_raw": "643288183743"
+      "token_units_reported": "6417.33569997",
+      "total_supply_raw": "641733569997"
     }
   ],
   "block": {
-    "block_timestamp_utc": "2026-11-16T11:32:12+00:00",
-    "hash": "0x8ad8b6f40288a9456745466f6015b0af63a218fe75af56d3d4e567b2cc334b23",
-    "number": 58191782
+    "block_timestamp_utc": "2026-11-17T11:58:15+00:00",
+    "hash": "0xe3885e8edc5fa34b62778801f570e25dff528c60441f0919c039125ed9432bc6",
+    "number": 58631598
   },
-  "captured_at_utc": "2026-11-16T11:32:18.531747+00:00",
+  "captured_at_utc": "2026-11-17T11:58:21.803785+00:00",
   "chain_id": 8453,
   "mode": "LIVE_BASE_MAINNET_READ_ONLY",
   "schema_version": "equity-lens-public-snapshot-1",
