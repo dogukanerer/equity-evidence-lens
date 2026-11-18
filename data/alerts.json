@@ -1,10 +1,85 @@
 {
-  "base_latest_block": 58631598,
-  "base_observation_count": 8,
+  "base_latest_block": 59061197,
+  "base_observation_count": 9,
   "chain_id": 8453,
   "disclaimer": "Changes are observed differences between verified sampled blocks, not proof of the transaction, exact event block, intent, privilege, exploit, investment safety, token rights, or airdrop eligibility. Changes occurring and reversing between samples may be missed.",
-  "event_count": 3,
+  "event_count": 6,
   "events": [
+    {
+      "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+      "current": {
+        "decimals": 8,
+        "raw": "613510507874",
+        "units": "6135.10507874"
+      },
+      "event_id": "ee3bb97895deb68bcb905e39",
+      "field": "total_supply_raw",
+      "from_block": 58631598,
+      "from_block_hash": "0xe3885e8edc5fa34b62778801f570e25dff528c60441f0919c039125ed9432bc6",
+      "kind": "REPORTED_SUPPLY_INCREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "606713908821",
+        "units": "6067.13908821"
+      },
+      "scope": "token",
+      "ticker": "AAPLc",
+      "to_block": 59061197,
+      "to_block_hash": "0x34541027e07d629437bb232a2e9e319b7a4901dac7a4d8027068902e4277d0c4"
+    },
+    {
+      "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+      "current": {
+        "decimals": 8,
+        "raw": "5270574813970",
+        "units": "52705.7481397"
+      },
+      "event_id": "259e63c59152bf0949b5a536",
+      "field": "total_supply_raw",
+      "from_block": 58631598,
+      "from_block_hash": "0xe3885e8edc5fa34b62778801f570e25dff528c60441f0919c039125ed9432bc6",
+      "kind": "REPORTED_SUPPLY_DECREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "5384713414298",
+        "units": "53847.13414298"
+      },
+      "scope": "token",
+      "ticker": "NVDAc",
+      "to_block": 59061197,
+      "to_block_hash": "0x34541027e07d629437bb232a2e9e319b7a4901dac7a4d8027068902e4277d0c4"
+    },
+    {
+      "address": "0xb2000000000000000000001e800a7f5189430cD0",
+      "current": {
+        "decimals": 8,
+        "raw": "638812122418",
+        "units": "6388.12122418"
+      },
+      "event_id": "897dc40849b4c0e45b3cb1a5",
+      "field": "total_supply_raw",
+      "from_block": 58631598,
+      "from_block_hash": "0xe3885e8edc5fa34b62778801f570e25dff528c60441f0919c039125ed9432bc6",
+      "kind": "REPORTED_SUPPLY_DECREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "641733569997",
+        "units": "6417.33569997"
+      },
+      "scope": "token",
+      "ticker": "TSLAc",
+      "to_block": 59061197,
+      "to_block_hash": "0x34541027e07d629437bb232a2e9e319b7a4901dac7a4d8027068902e4277d0c4"
+    },
     {
       "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
       "current": {
@@ -83,13 +158,13 @@
   ],
   "mode": "OFFLINE_VERIFIED_SAMPLE_COMPARISON_NO_TRADES",
   "proxy_currently_conflicting_indicators": [],
-  "proxy_latest_block": 58631598,
-  "proxy_observation_count": 5,
+  "proxy_latest_block": 59061197,
+  "proxy_observation_count": 6,
   "schema_version": "equity-lens-change-review-1",
   "source_sha256": {
-    "history.json": "90148ce03cd0738b20a1cd766baa77c559d9984d561de5fa792d7dfb0acda68b",
-    "manifest.json": "9030681d266e1055df2f09a1d2b0b9d6fc163c0a6e7b321206902343ce308a81",
-    "proxy_history.json": "c4b9cca492fb8de3517a92b9de01e96ddacdf3c73e76ee2a8cd48738721c6376",
-    "proxy_manifest.json": "ffe68c26d491b156809fcf9c0f166f5d43c4129db568e8497c7ac13f952a14e1"
+    "history.json": "c5a394c31f9b9fb2a68f07285504e05c50c0f6f10c8e05609682c302ad5ba99e",
+    "manifest.json": "78f5bf33b462cd38017a6137cc4e70ec04706102b08d42c2971fcdf8b36ebe29",
+    "proxy_history.json": "84eea1bc89261d51fa825abb3653a23f03b10335ac3e75da0aceace2f854f83c",
+    "proxy_manifest.json": "cf154f661c689ebea3d07d29ff1163050e44a2343723d2dddc8ae725e2a4d718"
   }
 }

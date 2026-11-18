@@ -1,15 +1,15 @@
 {
   "chain_id": 8453,
   "earlier_block": {
-    "block_timestamp_utc": "2026-11-16T11:32:12+00:00",
-    "hash": "0x8ad8b6f40288a9456745466f6015b0af63a218fe75af56d3d4e567b2cc334b23",
-    "number": 58191782
-  },
-  "interpretation": "Two observations only; not security certification or investment advice.",
-  "later_block": {
     "block_timestamp_utc": "2026-11-17T11:58:15+00:00",
     "hash": "0xe3885e8edc5fa34b62778801f570e25dff528c60441f0919c039125ed9432bc6",
     "number": 58631598
+  },
+  "interpretation": "Two observations only; not security certification or investment advice.",
+  "later_block": {
+    "block_timestamp_utc": "2026-11-18T11:50:15+00:00",
+    "hash": "0x34541027e07d629437bb232a2e9e319b7a4901dac7a4d8027068902e4277d0c4",
+    "number": 59061197
   },
   "results": [
     {
@@ -17,8 +17,8 @@
       "changes": [
         "RAW_TOTAL_SUPPLY_CHANGED"
       ],
-      "raw_supply_delta": "6696649068",
-      "raw_supply_pct_change": "1.116076",
+      "raw_supply_delta": "6796599053",
+      "raw_supply_pct_change": "1.120231",
       "status": "CHANGE_REVIEW",
       "ticker": "AAPLc"
     },
@@ -27,8 +27,8 @@
       "changes": [
         "RAW_TOTAL_SUPPLY_CHANGED"
       ],
-      "raw_supply_delta": "459153003414",
-      "raw_supply_pct_change": "9.321843",
+      "raw_supply_delta": "-114138600328",
+      "raw_supply_pct_change": "-2.119678",
       "status": "CHANGE_REVIEW",
       "ticker": "NVDAc"
     },
@@ -37,8 +37,8 @@
       "changes": [
         "RAW_TOTAL_SUPPLY_CHANGED"
       ],
-      "raw_supply_delta": "-1554613746",
-      "raw_supply_pct_change": "-0.241667",
+      "raw_supply_delta": "-2921447579",
+      "raw_supply_pct_change": "-0.455243",
       "status": "CHANGE_REVIEW",
       "ticker": "TSLAc"
     }
