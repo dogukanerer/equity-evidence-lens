@@ -398,6 +398,50 @@
       "mode": "LIVE_BASE_MAINNET_READ_ONLY",
       "schema_version": "equity-lens-public-snapshot-1",
       "source_url": "https://www.base.org/assets"
+    },
+    {
+      "assets": [
+        {
+          "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+          "code_bytes": 1,
+          "code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+          "decimals_reported": 8,
+          "status": "READ_OK",
+          "ticker": "AAPLc",
+          "token_units_reported": "6103.12108319",
+          "total_supply_raw": "610312108319"
+        },
+        {
+          "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+          "code_bytes": 1,
+          "code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+          "decimals_reported": 8,
+          "status": "READ_OK",
+          "ticker": "NVDAc",
+          "token_units_reported": "55760.10508015",
+          "total_supply_raw": "5576010508015"
+        },
+        {
+          "address": "0xb2000000000000000000001e800a7f5189430cD0",
+          "code_bytes": 1,
+          "code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+          "decimals_reported": 8,
+          "status": "READ_OK",
+          "ticker": "TSLAc",
+          "token_units_reported": "6338.06260755",
+          "total_supply_raw": "633806260755"
+        }
+      ],
+      "block": {
+        "block_timestamp_utc": "2026-11-19T11:47:27+00:00",
+        "hash": "0xa786dff6e309ac6faa03327c78c40e203307e17dc28f29d7d52feb3445ffd8e2",
+        "number": 59492360
+      },
+      "captured_at_utc": "2026-11-19T11:47:34.084854+00:00",
+      "chain_id": 8453,
+      "mode": "LIVE_BASE_MAINNET_READ_ONLY",
+      "schema_version": "equity-lens-public-snapshot-1",
+      "source_url": "https://www.base.org/assets"
     }
   ],
   "source_url": "https://www.base.org/assets"
