@@ -1,10 +1,60 @@
 {
-  "base_latest_block": 59492360,
-  "base_observation_count": 10,
+  "base_latest_block": 59924440,
+  "base_observation_count": 11,
   "chain_id": 8453,
   "disclaimer": "Changes are observed differences between verified sampled blocks, not proof of the transaction, exact event block, intent, privilege, exploit, investment safety, token rights, or airdrop eligibility. Changes occurring and reversing between samples may be missed.",
-  "event_count": 9,
+  "event_count": 11,
   "events": [
+    {
+      "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+      "current": {
+        "decimals": 8,
+        "raw": "5908831470432",
+        "units": "59088.31470432"
+      },
+      "event_id": "a384da16537836b94e62d475",
+      "field": "total_supply_raw",
+      "from_block": 59492360,
+      "from_block_hash": "0xa786dff6e309ac6faa03327c78c40e203307e17dc28f29d7d52feb3445ffd8e2",
+      "kind": "REPORTED_SUPPLY_INCREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "5576010508015",
+        "units": "55760.10508015"
+      },
+      "scope": "token",
+      "ticker": "NVDAc",
+      "to_block": 59924440,
+      "to_block_hash": "0x8ae51859214702098eb79885e51fb3240ef5446fff642a400b48c85a1ffaaeeb"
+    },
+    {
+      "address": "0xb2000000000000000000001e800a7f5189430cD0",
+      "current": {
+        "decimals": 8,
+        "raw": "637497826993",
+        "units": "6374.97826993"
+      },
+      "event_id": "60c9d11a293fb3cd50f87a9c",
+      "field": "total_supply_raw",
+      "from_block": 59492360,
+      "from_block_hash": "0xa786dff6e309ac6faa03327c78c40e203307e17dc28f29d7d52feb3445ffd8e2",
+      "kind": "REPORTED_SUPPLY_INCREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "633806260755",
+        "units": "6338.06260755"
+      },
+      "scope": "token",
+      "ticker": "TSLAc",
+      "to_block": 59924440,
+      "to_block_hash": "0x8ae51859214702098eb79885e51fb3240ef5446fff642a400b48c85a1ffaaeeb"
+    },
     {
       "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
       "current": {
@@ -233,13 +283,13 @@
   ],
   "mode": "OFFLINE_VERIFIED_SAMPLE_COMPARISON_NO_TRADES",
   "proxy_currently_conflicting_indicators": [],
-  "proxy_latest_block": 59492360,
-  "proxy_observation_count": 7,
+  "proxy_latest_block": 59924440,
+  "proxy_observation_count": 8,
   "schema_version": "equity-lens-change-review-1",
   "source_sha256": {
-    "history.json": "31c7a2beb5984129d747bed1af6c07498eabc1c2cf196c8e1b9c6f1a5ef3e875",
-    "manifest.json": "54b361f08603230c7a1b53b76337182d4231afb3df8e9364997cb1ac15bb980d",
-    "proxy_history.json": "961d71e94a1f8f9b516186d72b01cc1bf7bccea5e52a94512f1e477ba6eebb44",
-    "proxy_manifest.json": "6436996583e0f95addcfd8be2ef90a7730f2f534dee9bec28c3cd1dda22b5080"
+    "history.json": "2a15d74f0811159d5d7c5dbaf717dbd472526d338654cb3463b74c41014491a8",
+    "manifest.json": "dd1987e252f8560f321255a823136f9e23d5ac439290d09578002d9a0b427a02",
+    "proxy_history.json": "6fc8838e63735c0f7557abf72009b406ac84f363acf66e36a4e858c4e09af40c",
+    "proxy_manifest.json": "db2b0aceb77993e4f515de1631fb511f4ce6fa7ee4ee25f7400391b979802b36"
   }
 }

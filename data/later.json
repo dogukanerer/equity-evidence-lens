@@ -17,8 +17,8 @@
       "decimals_reported": 8,
       "status": "READ_OK",
       "ticker": "NVDAc",
-      "token_units_reported": "55760.10508015",
-      "total_supply_raw": "5576010508015"
+      "token_units_reported": "59088.31470432",
+      "total_supply_raw": "5908831470432"
     },
     {
       "address": "0xb2000000000000000000001e800a7f5189430cD0",
@@ -27,16 +27,16 @@
       "decimals_reported": 8,
       "status": "READ_OK",
       "ticker": "TSLAc",
-      "token_units_reported": "6338.06260755",
-      "total_supply_raw": "633806260755"
+      "token_units_reported": "6374.97826993",
+      "total_supply_raw": "637497826993"
     }
   ],
   "block": {
-    "block_timestamp_utc": "2026-11-19T11:47:27+00:00",
-    "hash": "0xa786dff6e309ac6faa03327c78c40e203307e17dc28f29d7d52feb3445ffd8e2",
-    "number": 59492360
+    "block_timestamp_utc": "2026-11-20T11:47:43+00:00",
+    "hash": "0x8ae51859214702098eb79885e51fb3240ef5446fff642a400b48c85a1ffaaeeb",
+    "number": 59924440
   },
-  "captured_at_utc": "2026-11-19T11:47:34.084854+00:00",
+  "captured_at_utc": "2026-11-20T11:47:50.237138+00:00",
   "chain_id": 8453,
   "mode": "LIVE_BASE_MAINNET_READ_ONLY",
   "schema_version": "equity-lens-public-snapshot-1",
