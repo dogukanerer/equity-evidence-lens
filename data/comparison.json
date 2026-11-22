@@ -1,43 +1,41 @@
 {
   "chain_id": 8453,
   "earlier_block": {
-    "block_timestamp_utc": "2026-11-20T11:47:43+00:00",
-    "hash": "0x8ae51859214702098eb79885e51fb3240ef5446fff642a400b48c85a1ffaaeeb",
-    "number": 59924440
-  },
-  "interpretation": "Two observations only; not security certification or investment advice.",
-  "later_block": {
     "block_timestamp_utc": "2026-11-21T11:14:36+00:00",
     "hash": "0x4f335fe9447401fc4127b83d8cc50e53898a0295a8ab1e30f3221f854cd15671",
     "number": 60346503
   },
+  "interpretation": "Two observations only; not security certification or investment advice.",
+  "later_block": {
+    "block_timestamp_utc": "2026-11-22T11:33:04+00:00",
+    "hash": "0x87fbc3fb7df0f7cbfe6a790014e47577c92ef9fe6862e8b3c738d07c211e2b65",
+    "number": 60784044
+  },
   "results": [
     {
       "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
-      "changes": [],
-      "raw_supply_delta": "0",
-      "raw_supply_pct_change": "0.000000",
-      "status": "NO_CHANGE_AT_SAMPLED_BLOCKS",
+      "changes": [
+        "RAW_TOTAL_SUPPLY_CHANGED"
+      ],
+      "raw_supply_delta": "-6996499026",
+      "raw_supply_pct_change": "-1.146381",
+      "status": "CHANGE_REVIEW",
       "ticker": "AAPLc"
     },
     {
       "address": "0xb20000000000000000000078ee7ce2fE4908108C",
-      "changes": [
-        "RAW_TOTAL_SUPPLY_CHANGED"
-      ],
-      "raw_supply_delta": "293142307142",
-      "raw_supply_pct_change": "4.961088",
-      "status": "CHANGE_REVIEW",
+      "changes": [],
+      "raw_supply_delta": "0",
+      "raw_supply_pct_change": "0.000000",
+      "status": "NO_CHANGE_AT_SAMPLED_BLOCKS",
       "ticker": "NVDAc"
     },
     {
       "address": "0xb2000000000000000000001e800a7f5189430cD0",
-      "changes": [
-        "RAW_TOTAL_SUPPLY_CHANGED"
-      ],
-      "raw_supply_delta": "15234562906",
-      "raw_supply_pct_change": "2.389744",
-      "status": "CHANGE_REVIEW",
+      "changes": [],
+      "raw_supply_delta": "0",
+      "raw_supply_pct_change": "0.000000",
+      "status": "NO_CHANGE_AT_SAMPLED_BLOCKS",
       "ticker": "TSLAc"
     }
   ],

@@ -7,11 +7,11 @@
       "effective_at_unix": 0,
       "new_ui_multiplier_wad": "1000500389301980219",
       "pending_multiplier_update": false,
-      "raw_supply_units": "6103.12108319",
+      "raw_supply_units": "6033.15609293",
       "ticker": "AAPLc",
-      "total_supply_raw": "610312108319",
-      "total_supply_ui_raw": "610617501968",
-      "ui_adjusted_supply_units": "6106.17501968",
+      "total_supply_raw": "603315609293",
+      "total_supply_ui_raw": "603617501969",
+      "ui_adjusted_supply_units": "6036.17501969",
       "ui_multiplier_factor": "1.000500389301980219",
       "ui_multiplier_wad": "1000500389301980219"
     },
@@ -47,9 +47,9 @@
     }
   ],
   "block": {
-    "hash": "0x4f335fe9447401fc4127b83d8cc50e53898a0295a8ab1e30f3221f854cd15671",
-    "number": 60346503,
-    "timestamp_utc": "2026-11-21T11:14:36+00:00"
+    "hash": "0x87fbc3fb7df0f7cbfe6a790014e47577c92ef9fe6862e8b3c738d07c211e2b65",
+    "number": 60784044,
+    "timestamp_utc": "2026-11-22T11:33:04+00:00"
   },
   "chain_id": 8453,
   "mode": "LIVE_BASE_MAINNET_READ_ONLY",

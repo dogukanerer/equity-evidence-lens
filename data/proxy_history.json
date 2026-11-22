@@ -775,6 +775,92 @@
       ],
       "mode": "LIVE_BASE_MAINNET_READ_ONLY",
       "schema_version": "equity-lens-proxy-observation-1"
+    },
+    {
+      "assets": [
+        {
+          "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+          "authorization_analysis": "NOT_PERFORMED",
+          "eip1967_addresses": {
+            "admin": null,
+            "beacon": null,
+            "implementation": null
+          },
+          "eip1967_storage_words": {
+            "admin": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "erc1167_canonical_target": null,
+          "implementation_target_address": null,
+          "pattern_observed": "UNCLASSIFIED_STANDARD_SLOTS_EMPTY",
+          "runtime_code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+          "target_runtime_bytes": null,
+          "target_runtime_sha256": null,
+          "target_source": null,
+          "ticker": "AAPLc"
+        },
+        {
+          "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+          "authorization_analysis": "NOT_PERFORMED",
+          "eip1967_addresses": {
+            "admin": null,
+            "beacon": null,
+            "implementation": null
+          },
+          "eip1967_storage_words": {
+            "admin": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "erc1167_canonical_target": null,
+          "implementation_target_address": null,
+          "pattern_observed": "UNCLASSIFIED_STANDARD_SLOTS_EMPTY",
+          "runtime_code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+          "target_runtime_bytes": null,
+          "target_runtime_sha256": null,
+          "target_source": null,
+          "ticker": "NVDAc"
+        },
+        {
+          "address": "0xb2000000000000000000001e800a7f5189430cD0",
+          "authorization_analysis": "NOT_PERFORMED",
+          "eip1967_addresses": {
+            "admin": null,
+            "beacon": null,
+            "implementation": null
+          },
+          "eip1967_storage_words": {
+            "admin": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "beacon": "0x0000000000000000000000000000000000000000000000000000000000000000",
+            "implementation": "0x0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "erc1167_canonical_target": null,
+          "implementation_target_address": null,
+          "pattern_observed": "UNCLASSIFIED_STANDARD_SLOTS_EMPTY",
+          "runtime_code_sha256": "4d4d75d742863ab9656f3d5f76dff8589c3922e95a24ea6812157ffe4aaa3b6b",
+          "target_runtime_bytes": null,
+          "target_runtime_sha256": null,
+          "target_source": null,
+          "ticker": "TSLAc"
+        }
+      ],
+      "block": {
+        "block_timestamp_utc": "2026-11-22T11:33:04+00:00",
+        "hash": "0x87fbc3fb7df0f7cbfe6a790014e47577c92ef9fe6862e8b3c738d07c211e2b65",
+        "number": 60784044
+      },
+      "chain_id": 8453,
+      "collected_at_utc": "2026-11-22T11:33:11.323212+00:00",
+      "limitations": [
+        "ERC-1967 slots and exact ERC-1167 runtime cover ONLY a subset of proxy architectures.",
+        "Empty admin slot does NOT prove absent upgrade or owner powers.",
+        "Implementation code hash is a SHA-256 of provider-reported bytes, not proof of secure code.",
+        "This does NOT analyze UUPS owner roles, access control, timelocks, upgrades between sampled blocks or issuer rights.",
+        "RPC observations are not cryptographic state proofs or investment advice."
+      ],
+      "mode": "LIVE_BASE_MAINNET_READ_ONLY",
+      "schema_version": "equity-lens-proxy-observation-1"
     }
   ],
   "schema_version": "equity-lens-proxy-history-1"
