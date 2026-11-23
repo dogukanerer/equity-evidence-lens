@@ -68,12 +68,12 @@
     }
   ],
   "block": {
-    "block_timestamp_utc": "2026-11-22T11:33:04+00:00",
-    "hash": "0x87fbc3fb7df0f7cbfe6a790014e47577c92ef9fe6862e8b3c738d07c211e2b65",
-    "number": 60784044
+    "block_timestamp_utc": "2026-11-23T12:57:41+00:00",
+    "hash": "0x587690d2a701a01a0fb6ec2c361c957f25f3dfff8e98a629170177ab18da4982",
+    "number": 61241427
   },
   "chain_id": 8453,
-  "collected_at_utc": "2026-11-22T11:33:11.323212+00:00",
+  "collected_at_utc": "2026-11-23T12:57:48.376835+00:00",
   "limitations": [
     "ERC-1967 slots and exact ERC-1167 runtime cover ONLY a subset of proxy architectures.",
     "Empty admin slot does NOT prove absent upgrade or owner powers.",
