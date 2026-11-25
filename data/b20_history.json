@@ -582,6 +582,64 @@
       "mode": "LIVE_BASE_MAINNET_READ_ONLY",
       "schema_version": "equity-lens-b20-snapshot-1",
       "scope": "Read-only native B20 Asset calls; raw supply and multiplier-adjusted UI supply are different concepts."
+    },
+    {
+      "assets": [
+        {
+          "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+          "change_classification": "NO_LIVE_PENDING_UI_MULTIPLIER",
+          "decimals": 8,
+          "effective_at_unix": 0,
+          "new_ui_multiplier_wad": "1000500389301980219",
+          "pending_multiplier_update": false,
+          "raw_supply_units": "5840.25261979",
+          "ticker": "AAPLc",
+          "total_supply_raw": "584025261979",
+          "total_supply_ui_raw": "584317501972",
+          "ui_adjusted_supply_units": "5843.17501972",
+          "ui_multiplier_factor": "1.000500389301980219",
+          "ui_multiplier_wad": "1000500389301980219"
+        },
+        {
+          "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+          "change_classification": "NO_LIVE_PENDING_UI_MULTIPLIER",
+          "decimals": 8,
+          "effective_at_unix": 0,
+          "new_ui_multiplier_wad": "1000537939576369481",
+          "pending_multiplier_update": false,
+          "raw_supply_units": "69084.93712576",
+          "ticker": "NVDAc",
+          "total_supply_raw": "6908493712576",
+          "total_supply_ui_raw": "6912210064757",
+          "ui_adjusted_supply_units": "69122.10064757",
+          "ui_multiplier_factor": "1.000537939576369481",
+          "ui_multiplier_wad": "1000537939576369481"
+        },
+        {
+          "address": "0xb2000000000000000000001e800a7f5189430cD0",
+          "change_classification": "NO_LIVE_PENDING_UI_MULTIPLIER",
+          "decimals": 8,
+          "effective_at_unix": 0,
+          "new_ui_multiplier_wad": "1000000000000000000",
+          "pending_multiplier_update": false,
+          "raw_supply_units": "6171.06900317",
+          "ticker": "TSLAc",
+          "total_supply_raw": "617106900317",
+          "total_supply_ui_raw": "617106900317",
+          "ui_adjusted_supply_units": "6171.06900317",
+          "ui_multiplier_factor": "1",
+          "ui_multiplier_wad": "1000000000000000000"
+        }
+      ],
+      "block": {
+        "hash": "0xb5aab7e85cf298c26429414727769210ced2c25aa3b1ef53382d7d19849e2a9a",
+        "number": 62107288,
+        "timestamp_utc": "2026-11-25T13:03:53+00:00"
+      },
+      "chain_id": 8453,
+      "mode": "LIVE_BASE_MAINNET_READ_ONLY",
+      "schema_version": "equity-lens-b20-snapshot-1",
+      "scope": "Read-only native B20 Asset calls; raw supply and multiplier-adjusted UI supply are different concepts."
     }
   ]
 }
