@@ -1,10 +1,10 @@
 {
   "chain_id": 8453,
   "files_sha256": {
-    "comparison.json": "73b68f4e44092ec0cc10397305293fdf44dc5cd9ef225e824e93b0a0d4458c01",
-    "earlier.json": "14c94b492930092a314861fc1aeeed6ba10f992c7db9b29472563d7cc7fe35b4",
-    "history.json": "3546d1bbeab9813a56d6e737d18202b1b909c6a5b439250a6d491221e1c478c2",
-    "later.json": "63776f9594ff10f1194b51f27174609ba65d772235992b75cf00bacce1b78a9f"
+    "comparison.json": "91dcb66a3c03eb9f615842bf7a5a5a6143ac634875bcc82a54e5f000a340c9c9",
+    "earlier.json": "63776f9594ff10f1194b51f27174609ba65d772235992b75cf00bacce1b78a9f",
+    "history.json": "985695b9d5ba0414a5c0cd08b577f93b9c58405f32472cc2b602396c3ac113e8",
+    "later.json": "79dbdde06584c3745e124c109964fd13c628c2b829783220ba26acc47626bc80"
   },
   "schema_version": "equity-lens-public-manifest-1",
   "scope": "Sanitized, public read-only Base observations; SHA256 is file integrity, not state proof."
