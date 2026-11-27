@@ -1,10 +1,85 @@
 {
-  "base_latest_block": 62533327,
-  "base_observation_count": 17,
+  "base_latest_block": 62962436,
+  "base_observation_count": 18,
   "chain_id": 8453,
   "disclaimer": "Changes are observed differences between verified sampled blocks, not proof of the transaction, exact event block, intent, privilege, exploit, investment safety, token rights, or airdrop eligibility. Changes occurring and reversing between samples may be missed.",
-  "event_count": 26,
+  "event_count": 29,
   "events": [
+    {
+      "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
+      "current": {
+        "decimals": 8,
+        "raw": "584125211965",
+        "units": "5841.25211965"
+      },
+      "event_id": "7afed00f8e926f9e85b3cab0",
+      "field": "total_supply_raw",
+      "from_block": 62533327,
+      "from_block_hash": "0x92d5267ce279c7b40679c3ea94e6cc02472a68245cd9731440bd845e09831169",
+      "kind": "REPORTED_SUPPLY_DECREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "584225161951",
+        "units": "5842.25161951"
+      },
+      "scope": "token",
+      "ticker": "AAPLc",
+      "to_block": 62962436,
+      "to_block_hash": "0x7f9a8c28126827d720d67d6803110642d6a841b2ba8f86bc5159d889f41cc5eb"
+    },
+    {
+      "address": "0xb20000000000000000000078ee7ce2fE4908108C",
+      "current": {
+        "decimals": 8,
+        "raw": "7107286773911",
+        "units": "71072.86773911"
+      },
+      "event_id": "05b9205a8a26d3336cc38d29",
+      "field": "total_supply_raw",
+      "from_block": 62533327,
+      "from_block_hash": "0x92d5267ce279c7b40679c3ea94e6cc02472a68245cd9731440bd845e09831169",
+      "kind": "REPORTED_SUPPLY_INCREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "7091195430075",
+        "units": "70911.95430075"
+      },
+      "scope": "token",
+      "ticker": "NVDAc",
+      "to_block": 62962436,
+      "to_block_hash": "0x7f9a8c28126827d720d67d6803110642d6a841b2ba8f86bc5159d889f41cc5eb"
+    },
+    {
+      "address": "0xb2000000000000000000001e800a7f5189430cD0",
+      "current": {
+        "decimals": 8,
+        "raw": "636542460830",
+        "units": "6365.4246083"
+      },
+      "event_id": "d4d84f9d852413ef88541452",
+      "field": "total_supply_raw",
+      "from_block": 62533327,
+      "from_block_hash": "0x92d5267ce279c7b40679c3ea94e6cc02472a68245cd9731440bd845e09831169",
+      "kind": "REPORTED_SUPPLY_DECREASED",
+      "label": "MANUAL_REVIEW",
+      "limitation": "Only sampled values; event timing, cause and intervening changes are unknown.",
+      "meaning": "Contract-reported totalSupply differs between sampled blocks. This does not prove issuance, redemption, underlying stock ownership or a security incident.",
+      "previous": {
+        "decimals": 8,
+        "raw": "644942460830",
+        "units": "6449.4246083"
+      },
+      "scope": "token",
+      "ticker": "TSLAc",
+      "to_block": 62962436,
+      "to_block_hash": "0x7f9a8c28126827d720d67d6803110642d6a841b2ba8f86bc5159d889f41cc5eb"
+    },
     {
       "address": "0xb200000000000000000000C2e324d24d7eEcd1fb",
       "current": {
@@ -658,13 +733,13 @@
   ],
   "mode": "OFFLINE_VERIFIED_SAMPLE_COMPARISON_NO_TRADES",
   "proxy_currently_conflicting_indicators": [],
-  "proxy_latest_block": 62533327,
-  "proxy_observation_count": 14,
+  "proxy_latest_block": 62962436,
+  "proxy_observation_count": 15,
   "schema_version": "equity-lens-change-review-1",
   "source_sha256": {
-    "history.json": "985695b9d5ba0414a5c0cd08b577f93b9c58405f32472cc2b602396c3ac113e8",
-    "manifest.json": "0afdffb921534e130089aa65c597b481dff779cf53ba2164a99ec0f8da9cb2db",
-    "proxy_history.json": "7490da733048ca9fa40ddaabae882ca92b0c7299390af61626d6e4abe1bc1780",
-    "proxy_manifest.json": "434b61b72a2453e4cc03d20f8b68bd5724434e2c2f470a96bb47f53453641fe9"
+    "history.json": "88c21647af7b3f16c114f24fe102ebc70f76c34d950ab18c858044b44657ad7e",
+    "manifest.json": "5461b7a0ecd332155603833d65602aef4bbb1038419e41e8b69b692376a21075",
+    "proxy_history.json": "f643541b4f4383765a70d2d3f2e3127203eac546c26dd90a6970fd07be61a9f7",
+    "proxy_manifest.json": "0a958660003515d94dab0945c436654b560ecae613a47a10bd5eec56d9f8e449"
   }
 }
